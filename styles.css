@@ -1,0 +1,178 @@
+
+  *{
+    font-family: "Open Sans" , sans-serif;
+    color: black;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+  }
+  #header-img{
+    width: 6%;
+    padding: 0 40px;
+  }
+  #header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 10px;
+    background: linear-gradient(90deg, rgb(0, 255, 255), white);
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  h1{
+    position: fixed;
+    left: 10%;
+    font-size: 20px;
+    color: black;
+  }
+  h2{
+    margin: 10px auto;
+  }
+  h3, h4, h5{
+    font-size: 20px;
+  }
+  #nav-bar{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 15%;
+  }
+  .video-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    margin: 100px auto;
+  }
+  #video{
+    width: 100%;
+    height: 100%;
+  }
+  body{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+  }
+  #email{
+    margin: 0 auto;
+    display: block;
+    width: 250px;
+    height: 25px;
+  }
+  #submit{
+    margin: 5px auto;
+    display: block;
+    background-color: rgb(0, 255, 255);
+    color: black;
+    width: 150px;
+    font-weight: bold;
+  }
+  #crea{
+    width: 100%;
+  }
+  .div-crea{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    width: 50%;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover{
+    background-color:  rgb(0, 255, 255);
+  }
+  #delivery{
+    width: 20%;
+  }
+  #energy{
+    width: 20%;
+  }
+  #muscle{
+    width: 20%;
+  }
+  .product-info{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .container{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+  }
+  .description{
+    width: 40%;
+  }
+  .offers{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto;
+  }
+  .offer{
+    border: 3px solid black;
+    width: 50%;
+    height: 300px;
+    margin: 0 10px;
+  }
+  .offer-h{
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(0, 255, 255);
+  }
+  .select{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  h6, h7{
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .select p{
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  .selecionar{
+    height: 30px;
+    width: 70px;
+    margin-top: 20px;
+    background: rgb(0, 255, 255);
+    font-weight: bold;
+  }
+  #form input{
+    margin-bottom: 15px;
+  }
+  @media (max-width: 480px) {
+      .header {
+          padding: 10px;
+      }
+      .navbar a {
+          padding: 8px;
+          font-size: 14px;
+      }
+}
